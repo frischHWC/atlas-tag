@@ -1,6 +1,6 @@
 = Atlas automatic tag
 
-Goal of this project is to ...
+Goal of this project is to provide easy automatic tagging of Hive cols and tables using a file to map regex to tags.
 
 
 == How to run it ?

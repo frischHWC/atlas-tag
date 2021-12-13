@@ -1,0 +1,31 @@
+= Atlas automatic tag
+
+Goal of this project is to ...
+
+
+== How to run it ?
+
+First, go to link:pom.xml[pom.xml] and change cdp version to yours, change also if required, individual versions of each component. +
+Then Package the program:
+
+        mvn clean package
+
+Then you can run it using this java command:
+
+[source,bash]
+java -jar java-app-cdp.jar <Path_to_mapping_file>
+
+
+It is also possible to launch it on a platform using script: link:src/main/resources/launchToPlatform.sh[src/main/resources/launchToPlatform.sh].
+(Adapt it to your needs by changing user & machine of the platform) +
+
+== How does it work ?
+
+It takes as input (first argument) a properties file that is a list of Java Regex mapped to a tag (It is actually a one to one mapping).
+It will read kafka messages from Atlas ouput topic: ATLAS_ENTITIES , filter on update and create entities on Hive table or columns.
+Based on mapping file, it will create one or zero or multiple tags to this Atlas entity using Atlas API.
+
+== Mapping File
+
+An example is visible here: link:src/main/resources/mapTag.properties[src/main/resources/mapTag.properties] and as Regex is Java compiled,
+official documentation on it is useful: link:https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html[https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html]

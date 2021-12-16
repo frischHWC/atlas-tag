@@ -1,6 +1,6 @@
-package com.cloudera.frisch.javaappcdp;
+package com.cloudera.frisch.atlastag;
 
-import com.cloudera.frisch.javaappcdp.config.PropertiesLoader;
+import com.cloudera.frisch.atlastag.config.PropertiesLoader;
 import org.apache.atlas.ApplicationProperties;
 import org.apache.atlas.AtlasException;
 import org.apache.atlas.hook.AtlasHook;

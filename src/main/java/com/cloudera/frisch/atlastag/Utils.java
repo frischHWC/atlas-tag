@@ -1,7 +1,7 @@
-package com.cloudera.frisch.javaappcdp;
+package com.cloudera.frisch.atlastag;
 
 
-import com.cloudera.frisch.javaappcdp.config.PropertiesLoader;
+import com.cloudera.frisch.atlastag.config.PropertiesLoader;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.security.UserGroupInformation;

@@ -1,6 +1,6 @@
-package com.cloudera.frisch.javaappcdp;
+package com.cloudera.frisch.atlastag;
 
-import com.cloudera.frisch.javaappcdp.config.PropertiesLoader;
+import com.cloudera.frisch.atlastag.config.PropertiesLoader;
 import org.apache.log4j.Logger;
 
 import java.util.Map;

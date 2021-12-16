@@ -1,4 +1,4 @@
-package com.cloudera.frisch.javaappcdp.config;
+package com.cloudera.frisch.atlastag.config;
 
 import org.apache.log4j.Logger;
 

@@ -1,7 +1,7 @@
-package com.cloudera.frisch.javaappcdp;
+package com.cloudera.frisch.atlastag;
 
 
-import com.cloudera.frisch.javaappcdp.config.PropertiesLoader;
+import com.cloudera.frisch.atlastag.config.PropertiesLoader;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.atlas.kafka.AtlasKafkaMessage;
 import org.apache.atlas.kafka.NotificationProvider;
